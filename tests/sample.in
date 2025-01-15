@@ -1,0 +1,18 @@
+# Sample input for memory management program
+
+# Request 1: Allocate 100 bytes
+100
+
+# Request 2: Allocate 200 bytes
+200
+
+#Request 3 : Allocate 300 bytes (may fail if not enough space)
+300
+
+# Request 4: Free the memory allocated in request 1 (100 bytes)
+100
+
+# Request 5: Allocate 50 bytes (may succeed if freed memory is enough)
+50
+
+# Additional requests can be added here to test different scenarios
